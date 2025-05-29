@@ -43,7 +43,7 @@ jobs:
                 echo "build number : ${{inputs.build-number}}"
                 echo "Message : ${{inputs.message}}"
             - name: run tests if selected
-              if: ${{inputs.run-tests== 'true'}}
+              if: ${{inputs.run-tests== true}}
               run: echo "testing in Progress......."
 
 
