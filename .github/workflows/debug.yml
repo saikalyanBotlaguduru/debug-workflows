@@ -22,7 +22,7 @@ jobs:
         - name: step 3 - Print user name
           run: |
            echo "printing user name env variable from previous step"
-           echo "==============>" $USERNAME
+           echo "==============>$USERNAME"
            exit 1
         
         - name: step4 - printing USER_2
